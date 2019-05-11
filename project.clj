@@ -5,4 +5,5 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.clojure/test.check "0.9.0"]]
+  :plugins [[lein-eftest "0.5.7"]]
   :repl-options {:init-ns combolock.core})
